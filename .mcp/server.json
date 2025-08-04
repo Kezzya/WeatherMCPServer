@@ -1,0 +1,38 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
+  "description": "<your description here>",
+  "name": "io.github.Kezzya/WeatherMCPServer",
+  "OpenWeatherMap": {
+    "ApiKey": "03b20e04b9a8812ac8e843a9465b8cc1"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "None",
+      "Microsoft": "None",
+      "Microsoft.Hosting.Lifetime": "None"
+    },
+    "Console": {
+      "LogLevel": {
+        "Default": "None",
+        "Microsoft": "None",
+        "Microsoft.Hosting.Lifetime": "None"
+      }
+    },
+    "packages": [
+      {
+        "registry_name": "nuget",
+        "name": "<your package ID here>",
+        "version": "0.1.0-beta",
+        "package_arguments": [],
+        "environment_variables": []
+      }
+    ],
+    "repository": {
+      "url": "https://github.com/Kezzya/WeatherMCPServer",
+      "source": "github"
+    },
+    "version_detail": {
+      "version": "0.1.0-beta"
+    }
+  }
+ 
